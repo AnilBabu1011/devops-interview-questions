@@ -1,0 +1,9 @@
+Did you have experience using PowerShell scripts
+Sprint and story point structure
+Have you done any automation?
+how do you automate the actions 
+What is the database you used in your project
+If I want to do the deployment what is the correct process?
+do I need to clone the code from the repository or we can push the code directly to the respective server
+Do you have any certification in AWS?
+How many applications/projects are you working with?
