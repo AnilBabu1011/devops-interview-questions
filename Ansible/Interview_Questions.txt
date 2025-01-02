@@ -1,0 +1,23 @@
+What is Ansible roles?
+What is Ansible modules?
+file extension for Ansible 
+hosts where you add Ansible
+What are handlers in Ansible?
+What is the command to create a role in Ansible?
+Ansible components
+ansible roles
+ansible modules
+ansible package manager
+ansible-playbook
+ansible connection of master and client nodes
+Does Ansible work pull-based or Push-based?
+Have you used the Ansible playbook in the CI/CD pipeline?
+Explain the Ansible-Playbook how you used
+What is the difference between Shell, and Command modules in Ansible why do we use the Command module?
+What are the variables in Ansible
+What is ansible-galaxy
+What are the roles in Ansible
+Write an Ansible script to install the MySQL db server
+Iac tool Ansible 
+Why do we go with the Ansible Role
+Are you leveraging the existing roles or custom roles
