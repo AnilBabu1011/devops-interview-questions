@@ -1,0 +1,14 @@
+Kubernetes pod is not distinct always, What are its statuses?
+How do you check Kubernetes logs?
+Did you have Kubernetes architecture knowledge?
+which operations take place after the pod creation?
+What is the Blue-Green deployment strategy?
+For learning Kubernetes what is your approach
+Do you have any experience with Kubernetes?
+Replica set diff replica control
+If I have a 6 GB container and have installed one application which is 5GB & 
+I have to install another application within the same container how will you manage this scenario?
+What exposure do you have in Kubernetes?
+What is HPA in Kubernetes?
+How do you troubleshoot if the application does not support the auto-scaling?
+What do we do with namespaces in Kubernetes?
