@@ -1,0 +1,4 @@
+what is the artifact storage you are using in your project?
+What is Artifact?
+How to use the Artifacts in Deployment time?
+What do you know about the artifactory?
