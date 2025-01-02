@@ -1,0 +1,18 @@
+How do we get the list of s3 buckets using the EC2 instance?
+How do you access the s3 bucket data using an EC2 instance in another account?
+How you can deploy the application onto ec2 instances
+What is the difference between Security Groups and NACLs?
+what is the troubleshooting process for not accessing the EC2 instance even though the ports in the Security group are opened?
+how do you encrypt the data that you are accessing through the EC2 instance?
+What is the difference between ALB and NLB?
+I need a custom AMI with existing instances of how to do
+Nat gateway
+load balancer
+auto-scaling n types
+aws ec2 run-instances --image-id ami-xx --count 1 --instance-type t2.micro --key-name MyKeyPair --security-group-ids sg-xx --subnet-id subnet-xx
+security group
+How would you increase the EBS volume size without stopping the EC2 instance?
+How to config the instance to access the S3
+How do you access the S3 bucket data in another AWS account with the EC2 instance?
+How would you configure that s3 bucket based on ec2 instance creation?
+Define the creation of Autoscaling
