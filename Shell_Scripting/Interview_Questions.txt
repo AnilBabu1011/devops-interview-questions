@@ -1,1 +1,4 @@
-
+Write a Shell script to list down all the ec2 instances in a region
+Write a shell script using arguments to deploy the application
+How about your experience with Shell Scripting
+What experience do you have with shell script and Python scripting?
