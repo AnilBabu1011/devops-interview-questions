@@ -1,4 +1,4 @@
-##How to give the cron job that I want to do the build-in every 2 days
+How to give the cron job that I want to do the build-in every 2 days
 How do you use Linux daily
 How do we get the process ID of a service running on Linux (Ex: tomcat)
 How do you display the top 10 files in Linux
