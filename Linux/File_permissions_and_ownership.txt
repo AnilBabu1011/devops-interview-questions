@@ -1,0 +1,5 @@
+Permissions system:
+rwx (read, write, execute) and how to set permissions using chmod
+Understanding owner, group, and others.
+chown and chgrp for changing ownership and group of files.
+Understanding sticky bits, suid, and sgid.
