@@ -1,0 +1,30 @@
+What is the multi-branch pipeline in Jenkins?
+What are Automated rollbacks in Jenkins?
+Write a Jenkins Scripted/declarative pipeline to deploy the application
+Write a Jenkins pipeline from scratch to deploy
+How can you integrate Jenkins with other tools?
+What are Jenkins pipeline components?
+What is the default port of Jenkins?
+what are the different blocks of Jenkinsfile? 
+What are the Jenkins Shared Libraries?
+Jenkins Workflow
+Jenkins stage workflow
+Jenkins git integration
+Jenkins job build access providing
+what is pipeline
+what is Agile methodology?
+What are the types of Jenkins pipelines
+what is a node in Jenkins
+I have multiple Nodes in Jenkins but I wasn't restricted to doing the jobs in Nodes I built 10 jobs where the 10 jobs will run. Master or Nodes
+How to connect the windows Slave node to the Linux master in Jenkins
+I have running jobs in Jenkins but I want to restart Jenkins how to do that
+What is Jenkinsfile?
+How would add the condition for manual approval notification in Jenkins to go to the next step in the CICD pipeline?
+Explain the Jenkins pipeline structure
+How to clone the private repository and how do you define that in the checkout stage in a Jenkins pipeline?
+How will you deploy the application into the server using the Jenkins pipeline
+What is PollSCM in Jenkins?
+What stages are needed or available for the Java application deployment using Jenkins?
+write a pipeline script in Jenkins using Jenkinsfile
+How would you securely pass the information in Jenkins?
+Where we are giving git credentials in Jenkins
