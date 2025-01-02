@@ -1,0 +1,7 @@
+Basic Commands
+
+File and directory management (ls, cd, mkdir, rm, cp, mv).
+File viewing and editing (cat, less, more, nano, vim).
+Process management (ps, top, kill, htop).
+Disk usage (df, du).
+Search (find, grep, locate).
