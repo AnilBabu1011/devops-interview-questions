@@ -1,0 +1,21 @@
+What is the difference between git revert and git rebase git reset?
+what is git cherry-pick?
+What is Origin in Github
+What is the difference between a git branch & git tag
+What is the Difference between git merge and git rebase?
+What is the branching strategy in git?
+What is the difference between git fetch and git merge?
+What is the difference between Git pull and Git fetch?
+What is git Stash?
+How to push files from the local repository to the git remote repository
+What is git rebase?
+How do you find the conflicts and how can you resolve the Merge conflicts?
+I have 4 developers on my team do I need to create 4 different branches or single branch is enough for 4 developers, What is your approach?
+will you create a different branch or you will work on the Dev branch?
+Which branch that you use to create a Pipeline?
+How to modify the commit which recently pushed into the Master branch
+I have A B C files in the local repository and A B C D files in the remote repository how to merge the branch without disturbing my local file
+I have done 3 commits suddenly I want to modify 1st commit & I don't want to disturb the remaining two commits how to do that
+How to raise a pull request to your manager
+What is the version control tool you have used and how?
+Where do you store the application code?
