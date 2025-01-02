@@ -1,0 +1,13 @@
+##How to give the cron job that I want to do the build-in every 2 days
+How do you use Linux daily
+How do we get the process ID of a service running on Linux (Ex: tomcat)
+How do you display the top 10 files in Linux
+Explain file permissions on Linux
+How do you change the owner permission for a file or directory?
+What is GRUB in Linux?
+What is the use of the Nohup command in Linux?
+Which command is used to check the CPU in Linux?
+what is the difference between the 'chmod' and 'chown'?
+How to check the disk usage exactly?
+How do you specify the Cronjob and how can you run the Cronjobs automatically?
+I have a CSV file I want to read the file and move it to another directory how will you do it?
