@@ -1,0 +1,23 @@
+What experience do you have with Terraform
+Write a Terraform Script to create the s3 bucket from scratch
+Write a Terraform script to create the ec2 instance using modules
+Write a Terraform script to monitor the logs from Datadog monitoring
+Terraform modules to AWS services mechanism
+what is the approach we are giving the terraform resource type under while creating another resource
+What is the current terraform version
+What is Terraform taint command?
+What is the use of .tfvars files in Terraform?
+In Terraform, what is Statefile and what does it do?
+How do you retain or recover the State file in Terraform?
+What are the available files in Terraform?
+Have you worked on Terraform modules and what is the use of modules?
+Terraform Workspace how do you use it?
+Difference between terraform fmt and terraform validate
+Null resource in terraform
+Terraform input variable output variable
+Terraform files stored in?
+Install software through Terraform
+Terraform import secnario
+Have you written or done any terraform scripts/modules from scratch for any resource?
+what is remote-exec in terraform
+How would you create the resource in multiple regions with a single template or script?
