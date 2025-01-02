@@ -1,0 +1,6 @@
+What is the difference between IAM User and IAM Roles?
+Explain the AWS IAM concept
+which least privileged method you will enable to access the content in the s3 bucket through an EC2 instance.
+What is the difference between IAM Role IAM Policy and IAM Group?
+steps to create custom policies in IAM
+IAM policy and roles
