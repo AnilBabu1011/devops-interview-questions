@@ -1,0 +1,46 @@
+What is docker architecture?
+What are daemon roles?
+
+What is a Docker image?
+What is the command in Docker to delete the images?
+What are the different docker image commands?
+How to check all the images command: docker ps -a
+What is a Distroless docker image?	
+
+What is a Docker container?
+Docker container troubleshoot
+What is the command in Docker to list the running Containers?
+List all docker container commands.
+
+Difference between docker containers and images
+
+What is a Dockerfile?
+Dockerfile components
+create a Dockerfile with components
+Explain the Docker file commands
+Explain CMD vs ENTRYPOINT
+Difference between ADD and COPY
+Difference between CMD and ENTRYPOINT
+write a Dockerfile to build the nodejs application
+What is dockerfile optimization?
+What is the difference between Entrypoint and CMD in the Dockerfile
+Write a dockerfile which is related to Java or Go language
+What is multistage dockerfile?
+
+What is the use of Docker compose?
+What is Docker compose?
+	
+what is the difference between a docker file and a docker-compose file?
+	
+Describe the Overlay concept in Docker
+
+How would you create the persistent volumes in docker?
+What is Docker volumes or persistent storage?
+	
+Docker logs commands
+	
+what work you have done on the docker 
+How you can troubleshoot the issues while creating the Docker images and containers?
+Do you prepare any custom docker Images and have you worked on those custom Images in your current company?
+After the docker file build, I did the modification in the run command, is it possible?
+How can you troubleshoot the issue of the Docker container continuously crashing?
