@@ -1,0 +1,8 @@
+What are the DR roles you have performed?
+aws control tower
+aws account-account migration
+on-prem to AWS connection methods
+AWS services are Not region specific
+Do you have any work experience to do Deployment in AWS
+What kind of automation have you done in the past	
+What applications are you handling and architecture like web, android, or ios?
