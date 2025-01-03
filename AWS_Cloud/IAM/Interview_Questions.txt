@@ -4,3 +4,6 @@ which least privileged method you will enable to access the content in the s3 bu
 What is the difference between IAM Role IAM Policy and IAM Group?
 steps to create custom policies in IAM
 IAM policy and roles
+IAM components
+What is the IAM group and what Roles
+What is the difference between ACLs and IAM policies?
