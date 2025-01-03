@@ -18,17 +18,17 @@ How would you configure that s3 bucket based on ec2 instance creation?
 Define the creation of Autoscaling
 
 How to solve the EC2 instance booting problem
-		Is EC2 service regional or Global?
-		While provisioning EC2 what services are creating
-		EBS Volumes work for different regions or availability zone
-		What service do you use to share the folder between different EC2 instances
-		how can you access Ec2 instance with s3 objects
-		What are ELBs and how many types of ELBs?
-		how would you configure multiple instances of the same AMI?
-		Difference between ALB and NLB?
-		if three applications are running on one EC2 server, how would you place those applications and how would you access them using one load balancer?
-		What is the bootstrapping in the EC2 instance?
-		In AWS what are the Load balancers available
-		What is the difference between Application and Network Load balancers?
-		How to restrict the user in EC2 to access only one system
-		My EC2 Instance consumed 80% memory how will get the notifications
+Is EC2 service regional or Global?
+While provisioning EC2 what services are creating
+EBS Volumes work for different regions or availability zone
+What service do you use to share the folder between different EC2 instances
+how can you access Ec2 instance with s3 objects
+What are ELBs and how many types of ELBs?
+how would you configure multiple instances of the same AMI?
+Difference between ALB and NLB?
+if three applications are running on one EC2 server, how would you place those applications and how would you access them using one load balancer?
+What is the bootstrapping in the EC2 instance?
+In AWS what are the Load balancers available
+What is the difference between Application and Network Load balancers?
+How to restrict the user in EC2 to access only one system
+My EC2 Instance consumed 80% memory how will get the notifications
