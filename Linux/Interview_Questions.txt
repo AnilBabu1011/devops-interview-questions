@@ -11,3 +11,6 @@ what is the difference between the 'chmod' and 'chown'?
 How to check the disk usage exactly?
 How do you specify the Cronjob and how can you run the Cronjobs automatically?
 I have a CSV file I want to read the file and move it to another directory how will you do it?
+
+What level of activities have you performed in Linux?
+I have experience with Linux server administration, shell scripting, user and group management, package installation, process monitoring, and configuring services like Apache, Nginx, and SSH.
