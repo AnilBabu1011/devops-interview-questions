@@ -44,3 +44,49 @@ How you can troubleshoot the issues while creating the Docker images and contain
 Do you prepare any custom docker Images and have you worked on those custom Images in your current company?
 After the docker file build, I did the modification in the run command, is it possible?
 How can you troubleshoot the issue of the Docker container continuously crashing?
+
+Broadcom
+=========
+Have you worked on Docker and how much you can rate yourself in docker out of 5?
+What are the different instructions in Dockerfile?
+Can you explain all these instructions
+what is the build command to build the docker image?
+docker resource usage command
+how can you check the logs of the container
+how can you attach port to the docker container?
+do you know the range of node port
+
+Answers:
+1) Have you worked on Docker? How would you rate yourself in Docker out of 5?
+Yes, I have worked extensively on Docker. I would rate myself 4.5 out of 5 because I have a strong understanding of containerization, Docker commands, and Dockerfile usage, and I’ve built and managed multiple containerized applications in production environments.
+
+2} What are the different instructions in a Dockerfile?
+The common instructions in a Dockerfile include:
+
+FROM: Specifies the base image.
+RUN: Executes commands to install software or perform tasks.
+CMD: Provides the default command to run a container.
+ENTRYPOINT: Similar to CMD, but more static and allows arguments to be passed.
+COPY: Copies files from the local machine to the container.
+ADD: Similar to COPY but can also fetch URLs and extract tar files.
+WORKDIR: Sets the working directory in the container.
+EXPOSE: Specifies the port on which the container will listen.
+ENV: Sets environment variables.
+Can you explain all these instructions?
+(Provide brief descriptions as above and include examples, if needed.)
+
+3) What is the build command used to build a Docker image?
+The command is: docker build -t <image_name>:<tag> .
+
+4) What is the command to check Docker resource usage?
+The command is: docker stats.
+
+5) How can you check the logs of a container?
+You can use the command: docker logs <container_id>.
+
+6) How can you attach a port to a Docker container?
+You can map ports using the -p flag while running a container, e.g., docker run -p 8080:80 <image>.
+
+7) Do you know the range of NodePort?
+Yes, the default NodePort range in Kubernetes is 30000-32767.
+
