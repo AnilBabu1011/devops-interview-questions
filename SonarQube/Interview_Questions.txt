@@ -1,1 +1,4 @@
 What is quality gate in sonarqube?
+
+How have you used SonarQube in your projects?
+I have integrated SonarQube into CI/CD pipelines to analyze code quality and enforce coding standards. I configured it to generate reports on bugs, vulnerabilities, code smells, and code coverage.
