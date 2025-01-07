@@ -6,3 +6,28 @@ AWS services are Not region specific
 Do you have any work experience to do Deployment in AWS
 What kind of automation have you done in the past	
 What applications are you handling and architecture like web, android, or ios?
+
+Broadcom - L1
+=============
+
+Which cloud platforms are you familiar with?
+How can you migrate services from one region to another?
+How proficient are you in networking?
+How do you create a NAT gateway rule, enable it, and resolve a scenario where a VM is unable to connect to the target?
+
+Answers:
+1) Which cloud platforms are you familiar with?
+I am familiar with AWS, Azure, and GCP. I have hands-on experience with services like EC2, S3, EKS, AKS, and GKE, as well as Terraform and CloudFormation for IaC.
+
+2) How can you migrate services from one region to another?
+By using infrastructure as code (Terraform/CloudFormation), creating backups (e.g., EBS or database snapshots), and replicating data across regions. For stateless apps, redeploying the app in the new region and updating DNS works effectively.
+
+3) How proficient are you in networking?
+I have strong knowledge of networking concepts like VPC, subnets, route tables, security groups, NAT gateways, and load balancers in the cloud.
+
+4) How do you create a NAT gateway rule, enable it, and resolve a scenario where a VM is unable to connect to the target?
+
+Create a NAT gateway in the public subnet.
+Update the route table to route traffic from private subnets to the NAT gateway.
+Ensure the security groups and NACLs allow outbound traffic to the target.
+
