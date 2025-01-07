@@ -12,3 +12,57 @@ What exposure do you have in Kubernetes?
 What is HPA in Kubernetes?
 How do you troubleshoot if the application does not support the auto-scaling?
 What do we do with namespaces in Kubernetes?
+
+Broadcom
+========
+
+How proficient are you in Kubernetes?
+Which strategy do you use to upgrade Kubernetes clusters?
+What is the purpose of the rollback strategy?
+What is a one-node-at-a-time update called (in-place)?
+What is blue-green deployment?
+Can you write a sample manifest file for a service?
+What is meant by Deployment kind and Pod kind?
+What are the types of scaling in Kubernetes? What is the difference?
+
+Answers:
+1) How proficient are you in Kubernetes?
+I am proficient in Kubernetes and have hands-on experience in deploying and managing clusters, writing YAML manifests, configuring services, handling upgrades, and implementing CI/CD pipelines for Kubernetes-based applications.
+
+2) Which strategy do you use to upgrade Kubernetes clusters?
+I use a rolling update or blue-green deployment strategy, depending on the scenario. In managed services like EKS or AKS, I follow the cloud provider’s best practices for upgrading clusters.
+
+3) What is the purpose of the rollback strategy?
+The rollback strategy ensures that in case of deployment failures, you can revert to a previously stable state with minimal downtime.
+
+4) What is a one-node-at-a-time update called (in-place)?
+This is called a rolling update, where nodes are updated one at a time to minimize disruptions.
+
+5) What is blue-green deployment?
+Blue-green deployment is a release management strategy where two environments (Blue and Green) are maintained. The Blue environment runs the current version, while the Green environment runs the new version. After validation, traffic is switched to Green.
+
+6) Can you write a sample manifest file for a service?
+Service.yml
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-service
+  labels:
+    app: my-app
+spec:
+  selector:
+    app: my-app
+  ports:
+    - protocol: TCP
+      port: 80          # Service port
+      targetPort: 8080  # Pod container port
+  type: ClusterIP       # Type of Service (ClusterIP, NodePort, LoadBalancer, etc.)
+
+7) What is meant by Deployment kind and Pod kind?
+Deployment kind defines the configuration for maintaining a desired number of Pods, enabling rolling updates, scaling, and versioning.
+Pod kind is the smallest deployable unit in Kubernetes that encapsulates one or more containers.
+
+8)What are the types of scaling in Kubernetes? What is the difference?
+Horizontal scaling adds more Pods to distribute the workload (e.g., increasing replicas).
+Vertical scaling increases the resources (CPU/memory) of existing Pods.
