@@ -21,3 +21,14 @@ Terraform import secnario
 Have you written or done any terraform scripts/modules from scratch for any resource?
 what is remote-exec in terraform
 How would you create the resource in multiple regions with a single template or script?
+
+Broadcom - L1
+===============
+Terraform and Ansible
+
+1) How have you used Terraform and Ansible in your projects?
+With Terraform, I’ve managed infrastructure as code to create and manage resources like VPCs, EC2 instances, and Kubernetes clusters.
+With Ansible, I’ve automated configuration management, application deployments, and tasks like patching and user management.
+
+2) Is the Terraform state file directly modifiable?
+Direct modification is not recommended, as it can lead to inconsistencies. If necessary, changes should be made carefully and validated using tools like terraform state commands.
