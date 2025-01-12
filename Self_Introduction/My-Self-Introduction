@@ -1,0 +1,62 @@
+Introduction
+Hi, I’m Anil Radarapu, a DevOps Engineer with over 5 years of experience in designing, implementing, and managing cloud infrastructure and DevOps pipelines. 
+My career journey has been a gradual evolution from foundational tasks like setting up servers and automating basic workflows to advanced activities such as managing containerized applications and optimizing cloud costs.
+
+
+
+Basic Responsibilities
+System and Server Administration
+
+Early in my career, I focused on managing Linux and Windows servers, ensuring stable environments for development and production.
+I performed regular tasks like patching, backups, and troubleshooting to maintain system uptime and security.
+Version Control and Basic CI/CD
+
+I worked with Git and GitHub for version control, managing repositories, branching strategies, and code merges.
+I set up basic CI/CD pipelines using tools like Jenkins, automating tasks such as builds and deployments to minimize manual efforts.
+Intermediate Responsibilities
+Cloud Infrastructure Management
+
+As I gained experience, I started designing and managing AWS environments, including EC2 instances, S3 storage, VPC networking, and IAM for secure access control.
+I created secure and scalable infrastructure by configuring load balancers, auto-scaling groups, and multi-region setups.
+Infrastructure Automation (IaC)
+
+I transitioned to automating infrastructure using Terraform and CloudFormation. This ensured consistency across environments and significantly reduced provisioning times.
+I also created reusable modules in Terraform for common setups, like VPCs and EC2 instances.
+Configuration Management
+
+To further streamline operations, I utilized Ansible to automate configuration management, writing playbooks to install software, manage dependencies, and apply system configurations.
+Advanced Responsibilities
+Containerization and Orchestration
+
+Moving to more advanced workflows, I containerized applications using Docker, ensuring they could run consistently across different environments.
+I deployed these containers in Kubernetes (EKS), using Helm charts to manage configurations and achieve high availability and scalability.
+Optimizing CI/CD Pipelines
+
+I enhanced CI/CD pipelines with tools like Azure DevOps, adding stages for automated testing, approval gates, and notifications.
+I integrated tools like SonarQube for continuous code quality checks and Nexus for artifact management.
+Monitoring and Cost Optimization
+
+I set up end-to-end monitoring using AWS CloudWatch, ELK Stack, and Prometheus, creating dashboards and alerts to proactively identify and resolve issues.
+To optimize costs, I developed Python scripts with Boto3 to identify unused resources and automated actions like scaling down underutilized instances.
+Security and Compliance
+
+I implemented robust security measures, including IAM role-based access control, data encryption, and secure network configurations using AWS VPC, Security Groups, and NACLs.
+I conducted regular audits to ensure compliance with organizational and regulatory standards.
+Day-to-Day Activities
+On a daily basis, my tasks are a mix of proactive and reactive activities:
+
+Monitoring and Maintenance
+
+Ensuring cloud environments and CI/CD pipelines are running smoothly by monitoring logs and dashboards.
+Resolving incidents promptly using tools like ServiceNow for tracking and root cause analysis.
+Automation and Development
+
+Writing and refining Terraform scripts, Ansible playbooks, and CI/CD pipeline configurations to handle new infrastructure or application requirements.
+Automating routine tasks, such as resource cleanup, using Python scripts to improve efficiency.
+Collaboration and Support
+
+Working closely with developers to review code, address deployment issues, and optimize build pipelines.
+Documenting workflows and processes in Confluence and participating in team meetings to discuss progress and blockers.
+Closing
+My journey from foundational tasks to advanced cloud management and automation has equipped me with a strong understanding of DevOps principles and tools. I’m excited to bring my expertise to [Company Name], where I can contribute to building scalable, secure, and innovative solutions while continuously learning and growing.
+
