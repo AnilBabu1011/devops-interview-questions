@@ -1,0 +1,64 @@
+Introduction:
+--------------
+Hi, I’m Anil Radarapu, 
+a Cloud and DevOps Engineer with 5+ years of experience in AWS and DevOps methodologies. 
+My previous roles were with Modak Analytics and Virtusa, where I contributed to building and managing scalable, secure cloud infrastructure and automating operational workflows.
+
+Technology Stack:
+------------------
+If I explore about my technology stack like I am proficient in:
+
+AWS as Cloud service provider,
+Terraform as Infrastructure as code tool,
+GitHub as Version Control system,
+Jenkins as CI CD integratin tool,
+Docker as Containerization tool,
+Kubernetes as Orchestration mechanism,
+Asnible as Configuration management tool,
+Sonarqube as code quality monitoring tool,
+AWS CloudWatch and Datadog, prometheus and grafana are infra monitoring tools,
+Shell scripting as scripting language,
+Jira for ticket management,
+confluence for documentation
+ServiceNow for incident managemene,
+Slack for notifications
+
+Responsibilities in Previous Roles:
+----------------------------------
+Infrastructure Management
+Provisioned infrastructure using Terraform and CloudFormation as per architecture diagrams and client requirements.
+Implemented S3 cross-region replication and lifecycle policies for disaster recovery.
+
+CI/CD and Deployment
+Created and managed infrastructure pipelines using Jenkins CI/CD tool.
+Deployed applications and packages to provisioned infrastructure, ensuring proper approvals and zero-downtime releases.
+
+Monitoring and Optimization
+Used AWS CloudWatch and Datadog to monitor infrastructure performance and take necessary actions.
+Optimized cloud resources by identifying and cleaning unused resources like EC2 instances and EBS volumes.
+
+Automation and Upgrades
+Automated repetitive tasks using Python, Shell scripting, and Ansible.
+Upgraded Terraform scripts to newer versions as part of environment maintenance.
+
+Collaboration and Support
+Worked closely with development teams to ensure smooth build and release cycles.
+Supported production and development environments by resolving issues and managing access via IAM.
+
+Day-to-Day Activities:
+----------------------
+Begin the day by checking emails, monitoring notifications, and prioritizing critical tasks.
+Address alerts from monitoring systems (e.g., EKS cluster issues, RDS snapshot monitoring).
+Work on Jira tickets in a sprint-based approach, collaborating with team members when needed.
+Manage GitHub repositories, ensuring branching and naming standards are followed.
+Create and maintain Jenkins jobs for deployments.
+Conduct periodic operational tasks, such as:
+Cleaning up unused resources.
+Maintaining tagging standards for infrastructure.
+Monitoring pipeline performance and resolving failed builds.
+Performing quarterly service updates for various resources.
+
+Closing:
+This sums up my experience and expertise in AWS Cloud and DevOps. I’ve consistently focused on optimizing processes, ensuring high availability, and maintaining secure infrastructure for my clients.
+
+Thank you for the opportunity to share about myself.
