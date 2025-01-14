@@ -1,3 +1,6 @@
+Previous Interviews:
+====================
+
 Kubernetes pod is not distinct always, What are its statuses?
 How do you check Kubernetes logs?
 Did you have Kubernetes architecture knowledge?
@@ -15,7 +18,8 @@ What do we do with namespaces in Kubernetes?
 
 Broadcom
 ========
-
+L1 - Round:
+----------
 How proficient are you in Kubernetes?
 Which strategy do you use to upgrade Kubernetes clusters?
 What is the purpose of the rollback strategy?
@@ -25,7 +29,24 @@ Can you write a sample manifest file for a service?
 What is meant by Deployment kind and Pod kind?
 What are the types of scaling in Kubernetes? What is the difference?
 
+L2 -Round:
+-------
+What type of experience do you have with Kubernetes?
+How do you check the logs of a pod?
+What steps do you take to upgrade Kubernetes clusters?
+What are Readiness probes and Liveness probes?
+What are Helm charts, and what components do you specify for application deployment through Helm?
+What YAML files are needed to deploy an application on an EKS cluster?
+How would you configure Kubernetes nodes in Jenkins?
+How do you monitor Kubernetes pods' health status, and which monitoring tool do you use?
+If you are getting Kubernetes pod alerts that a pod is continuously going unhealthy, how would you ensure its health without application downtime?
+Is it possible to place application pods on the control plane? What is the best practice?
+How would you provide access to a resource for a particular namespace in a Kubernetes cluster to access secrets?
+
 Answers:
+=======
+Round - 1:
+----------
 1) How proficient are you in Kubernetes?
 I am proficient in Kubernetes and have hands-on experience in deploying and managing clusters, writing YAML manifests, configuring services, handling upgrades, and implementing CI/CD pipelines for Kubernetes-based applications.
 
@@ -66,3 +87,78 @@ Pod kind is the smallest deployable unit in Kubernetes that encapsulates one or 
 8)What are the types of scaling in Kubernetes? What is the difference?
 Horizontal scaling adds more Pods to distribute the workload (e.g., increasing replicas).
 Vertical scaling increases the resources (CPU/memory) of existing Pods.
+
+Round - 2:
+---------
+
+What type of experience do you have with Kubernetes?
+
+Answer: I have experience managing Kubernetes clusters using EKS and self-managed Kubernetes. This includes setting up deployments, scaling pods, configuring services, and implementing Helm charts for application packaging. I also have experience with monitoring Kubernetes using tools like Prometheus and Grafana.
+How do you check the logs of the pod?
+
+Answer: To check the logs of a pod, I use the kubectl logs command. For example:
+bash
+Copy code
+kubectl logs <pod-name>
+For multi-container pods, specify the container name:
+bash
+Copy code
+kubectl logs <pod-name> -c <container-name>
+What steps do you take to upgrade Kubernetes clusters?
+
+Answer:
+Backup the existing cluster using etcdctl or a snapshot tool.
+Review the upgrade documentation for breaking changes.
+Upgrade the control plane components (API server, controller manager, etc.).
+Upgrade the kubelet and kube-proxy on worker nodes.
+Perform testing to validate the upgrade.
+What are Readiness probes and Liveness probes?
+
+Answer:
+Liveness Probe: Checks if the application is running. If the probe fails, Kubernetes restarts the container.
+Readiness Probe: Checks if the application is ready to handle requests. If the probe fails, Kubernetes removes the pod from the service endpoint.
+What are Helm charts, and what components do you specify for application deployment through Helm?
+
+Answer: Helm charts are templates for Kubernetes resources that simplify application deployment. A typical Helm chart includes:
+Deployment
+Service
+ConfigMap
+Secrets
+Values.yaml (custom configurations)
+Chart.yaml (metadata)
+What YAML files are needed to deploy an application on an EKS cluster?
+
+Answer:
+Deployment YAML
+Service YAML (ClusterIP, NodePort, or LoadBalancer)
+ConfigMap/Secrets YAML
+Ingress YAML for routing traffic
+PersistentVolume and PersistentVolumeClaim YAML (if storage is needed)
+If you are getting Kubernetes pod alerts that a pod is continuously going unhealthy, how would you ensure its health without application downtime?
+
+Answer:
+Check pod logs and events for errors using kubectl logs and kubectl describe pod.
+Inspect readiness and liveness probes.
+Update configurations or deploy a hotfix if needed.
+Use rolling updates to avoid downtime.
+How would you configure Kubernetes nodes in Jenkins?
+
+Answer: I would use the Kubernetes Jenkins plugin to configure Kubernetes as a cloud provider. This involves:
+Adding Kubernetes credentials in Jenkins.
+Configuring a Kubernetes cloud with the cluster API server details.
+Defining pod templates for job execution.
+How do you monitor Kubernetes pods' health status, and which monitoring tool do you use?
+
+Answer: Tools like Prometheus and Grafana are ideal for monitoring pod health. Metrics such as CPU, memory, and custom application metrics can be visualized on Grafana dashboards.
+Is it possible to place application pods on the control plane? What is the best practice?
+
+Answer: It's not recommended to place application pods on the control plane as it can compromise stability and performance. The best practice is to use taints and tolerations to restrict workloads to worker nodes.
+How would you provide access to a resource for a particular namespace in a Kubernetes cluster to access secrets?
+
+Answer: Use Role-Based Access Control (RBAC) to create roles and role bindings specific to the namespace:
+yaml
+Copy code
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  namespace: <namespace>
